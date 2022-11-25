@@ -30,6 +30,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.sass"
             ],
             "scripts": []
@@ -93,9 +94,20 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.sass"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "personalwebsite:build:production",
+            "firebaseProject": "personalwebsite-e6802",
+            "firebaseHostingSite": "personalwebsite-e6802"
           }
         }
       }

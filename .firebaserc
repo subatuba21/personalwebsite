@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "personalwebsite-e6802": {
+      "hosting": {
+        "personalwebsite": [
+          "personalwebsite-e6802"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "personalwebsite-e6802"
+  }
+}
