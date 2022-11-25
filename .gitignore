@@ -13,6 +13,7 @@ yarn-error.log
 
 # Firebase
 *.log
+.firebase
 
 # IDEs and editors
 .idea/
